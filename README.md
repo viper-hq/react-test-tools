@@ -31,7 +31,7 @@ Open `tsconfig.json` used in tests and add an include:
 
 ### Mocked
 
-It allows you to Mock objects in a type safer way.
+It allows you to Mock objects in a type safe way.
 
 You can reset the object to default value using `resetAllMocks()`.
 
