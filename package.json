@@ -8,7 +8,7 @@
     "test": "jest --coverage *.spec.ts",
     "prettier": "prettier --write .",
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "author": "Attila Varga <attila@artit.io>",
   "license": "Apache-2.0",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
+    "@viperhq/react-test-tools": "^1.0.0",
     "jest": "^27.2.4",
     "prettier": "^2.4.1",
     "ts-jest": "^27.0.5",

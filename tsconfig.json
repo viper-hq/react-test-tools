@@ -10,6 +10,5 @@
     "lib": ["ES2015"],
     "types": ["node"]
   },
-  // "include": ["global.d.ts"],
   "files": ["index.ts"]
 }
