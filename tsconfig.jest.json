@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": ["ES2015"],
+    "types": ["node", "jest"]
+  },
+  "include": ["global.d.ts"],
+  "files": ["index.ts"]
+}
